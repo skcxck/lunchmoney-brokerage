@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ $# -gt 0 ];then
+    exec "$@"
+else
+    /usr/bin/supervisord -c '/etc/supervisor.d/docker.ini'
+fi

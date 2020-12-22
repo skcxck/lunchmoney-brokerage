@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  brokerage:
+    container_name: brokerage
+    build:
+      context: .
+    environment:
+      LUNCHMONEY_TOKEN: MY_SUPER_SECRET_TOKEN

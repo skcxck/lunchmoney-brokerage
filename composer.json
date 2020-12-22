@@ -18,7 +18,8 @@
     "symfony/property-access": "^5.2",
     "illuminate/config": "^8.19",
     "scheb/yahoo-finance-api": "^4.0",
-    "crazycodr/standard-exceptions": "^2.4"
+    "crazycodr/standard-exceptions": "^2.4",
+    "ext-json": "*"
   }
   ,
   "require-dev": {

@@ -1,4 +1,8 @@
 .idea
 .env
-vendor/
+config/app.php
 composer.lock
+docker-compose.override.yml
+supervisord.log
+supervisord.pid
+vendor/
